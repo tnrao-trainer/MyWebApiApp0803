@@ -18,3 +18,4 @@ C:\Users\Narasimha\source\repos\WebApplication22\WebApplication22\obj\Debug\netc
 C:\Users\Narasimha\source\repos\WebApplication22\WebApplication22\obj\Debug\netcoreapp3.1\WebApplication22.dll
 C:\Users\Narasimha\source\repos\WebApplication22\WebApplication22\obj\Debug\netcoreapp3.1\WebApplication22.pdb
 C:\Users\Narasimha\source\repos\WebApplication22\WebApplication22\obj\Debug\netcoreapp3.1\WebApplication22.genruntimeconfig.cache
+C:\Users\Narasimha\source\repos\WebApplication22\WebApplication22\bin\Debug\netcoreapp3.1\Deployment_WebApiCloudTest.yaml
