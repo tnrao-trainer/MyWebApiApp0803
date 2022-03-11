@@ -15,8 +15,8 @@ spec:
         app: WebApplication22
     spec:
       containers:
-      - name: webapplication22
-        image: dnazureacr0903.azurecr.io/dnazurecontainerrepo:latest
+      - name: dnazureacr1203
+        image: dnazureacr1203.azurecr.io/dnazurecontainerrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:

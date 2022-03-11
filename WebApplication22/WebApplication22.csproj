@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <None Remove="Deployment_WebApiCloudTest.yaml" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Deployment_WebApiCloudTest.yaml">
+    <Content Include="Deployment_WebApiCloudTest.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
   </ItemGroup>
 
 
