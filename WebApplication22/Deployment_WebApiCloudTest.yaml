@@ -1,4 +1,4 @@
-﻿apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: webapplication22-deployment
@@ -15,8 +15,8 @@ spec:
         app: WebApplication22
     spec:
       containers:
-      - name: dnazureacr1203
-        image: dnazureacr1203.azurecr.io/dnazurecontainerrepo:latest
+      - name: mydnazurecr0705
+        image: mydnazurecr0705.azurecr.io/azurecontainerrepo001:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
