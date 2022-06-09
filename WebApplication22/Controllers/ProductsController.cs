@@ -22,6 +22,8 @@ namespace WebApplication22.Controllers
                 new Product(){ ProductId = 1025, ProductName = "Boat Speakers", UnitPrice = 1900, Quantity = 6 },
                 new Product(){ ProductId = 1026, ProductName = "DLink Router", UnitPrice = 1350, Quantity = 2 },
                 new Product(){ ProductId = 1027, ProductName = "JBL Headset", UnitPrice = 2350, Quantity = 3 },
+                new Product(){ ProductId = 2026, ProductName = "Milton Steel Water Bottle", UnitPrice = 650, Quantity = 3 },
+                new Product(){ ProductId = 2027, ProductName = "Cello Lunch Box", UnitPrice = 1250, Quantity = 2 },
             };
 
             return Ok(prdList);
