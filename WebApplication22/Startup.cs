@@ -26,6 +26,14 @@ namespace WebApplication22
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+             //  Enable CORS
+            services.AddCors(o => o.AddPolicy("AllowOrigin", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +44,8 @@ namespace WebApplication22
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("AllowOrigin");
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
